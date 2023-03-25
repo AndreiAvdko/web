@@ -57,7 +57,7 @@ passInput.addEventListener("input", ()=> {
         passInput.className = "input-error"
          
         ppass.className = "error-pass-message";
-        ppass.textContent = "Пароль не короче 6 и не длиннее 25 символов";
+        ppass.textContent = "Пароль не короче 6 и не длиннее 25 символов.";
          if (!document.querySelector(".error-pass-message"))
          {
             document.querySelector("#pass-input-container").appendChild(ppass);
